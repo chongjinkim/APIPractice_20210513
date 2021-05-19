@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/projectBackgroundImg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="#88000000"/>
+
+        <TextView
+            android:id="@+id/profileTitleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:text="프로젝트 제목 자리"
+            android:layout_gravity="center"/>
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
