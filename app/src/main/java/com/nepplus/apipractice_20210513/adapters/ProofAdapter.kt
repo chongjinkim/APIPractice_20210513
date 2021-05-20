@@ -26,7 +26,7 @@ class ProofAdapter(
 
         if(tempRow == null){
 
-            tempRow = inflater.inflate(R.layout.project_list_item, null)
+            tempRow = inflater.inflate(R.layout.proof_list_item, null)
         }
 
         var row = tempRow!!
